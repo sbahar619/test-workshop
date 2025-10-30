@@ -16,7 +16,7 @@ spec:
         - resources: {}
           livenessProbe:
             httpGet:
-              path: /livex
+              path: /live
               port: 8080
               scheme: HTTP
             initialDelaySeconds: 1
