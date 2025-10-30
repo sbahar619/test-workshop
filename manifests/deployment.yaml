@@ -16,7 +16,7 @@ spec:
         - resources: {}
           livenessProbe:
             httpGet:
-              path: /live
+              path: /livex
               port: 8080
               scheme: HTTP
             initialDelaySeconds: 1
@@ -27,7 +27,7 @@ spec:
           readinessProbe:
             httpGet:
               path: /ready
-              port: 8090
+              port: 8080
               scheme: HTTP
             initialDelaySeconds: 1
             timeoutSeconds: 1 
